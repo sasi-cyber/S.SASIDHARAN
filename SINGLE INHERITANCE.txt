@@ -1,0 +1,37 @@
+SINGLE CLASS INHERITANCE:-
+
+package org.java;
+class AA
+{
+	long a=50;
+	public void test()
+	{
+		System.out.println("test method invoked");
+	}
+}
+
+class BB extends AA
+{
+	long b=100;
+	public void demo()
+	{
+		System.out.println("demo method method");
+	}
+}
+
+
+
+public class SingleInheritence {
+
+	public static void main(String[] args) {
+		
+		BB obj=new BB();
+		obj.demo();
+		obj.test();
+		System.out.println(obj.a);
+		System.out.println(obj.b);
+		
+
+	}
+
+}
